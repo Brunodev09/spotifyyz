@@ -8,6 +8,14 @@ GET http://localhost:3000/songs/1
 
 ### Create New SONGS REQUEST
 POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+"title": "Dollar Billz",
+"artists": ["Whoz"],
+"releasedDate" : "2023-07-29 00:00:00",
+"duration" :"02:12"
+}
 
 
 ### Update SONGS REQUEST
